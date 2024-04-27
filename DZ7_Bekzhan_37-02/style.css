@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100,
+            "YTLC" 500;
+}
+body {
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.wrapper {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.29);
+}
+#text {
+    border: 2px solid deepskyblue;
+    border-radius: 10px;
+    /*height: 4em;*/
+    resize: none;
+    padding: 30px 10px;
+    overflow: hidden;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100,
+            "YTLC" 500;
+
+}
+#char-count {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.6;
+}
+form {
+    position: relative;
+}
+form:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+#char-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 0.6;
+}
